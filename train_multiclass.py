@@ -83,7 +83,7 @@ def main():
         weight_decay=0.01,
         logging_dir='./logs_multiclass',
         logging_steps=50,
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",  # Updated from evaluation_strategy
         save_strategy="epoch",
         load_best_model_at_end=True,
         metric_for_best_model="f1",
