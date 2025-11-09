@@ -24,10 +24,10 @@ Unlike traditional binary classifiers (Human vs. AI), our approach addresses the
 
 | Name | Roll Number | Role |
 |------|-------------|------|
-| **Abhinav Pangaria** | 2201005 | Lead Researcher |
-| **Kaushal Chaudhary** | 2201058 | Model Development |
-| **DivyRaj Saini** | 2201070 | Data Engineering |
-| **Sahil Burman** | 2201172 | Evaluation & Analysis |
+| **Abhinav Pangaria** | 2201005 | Model Development |
+| **Kaushal Chaudhary** | 2201058 | Evaluation & Analysis |
+| **DivyRaj Saini** | 2201070 | Lead Researcher  |
+| **Sahil Burman** | 2201172 |  Data Engineering  |
 
 ---
 
@@ -41,9 +41,9 @@ Unlike traditional binary classifiers (Human vs. AI), our approach addresses the
 
 ### Core Documentation (Read in Order)
 
-1. **[PROJECT_REPORT.md](PROJECT_REPORT.md)** ⭐ **START HERE**
+1. **[PROJECT_REPORT.md](PROJECT_REPORT.md)
    - Problem statement and research motivation
-   - Methodology overview (Phase 1 & 2)
+   - Methodology overview 
    - Dataset creation process
    - Next steps and research roadmap
 
@@ -74,11 +74,6 @@ Unlike traditional binary classifiers (Human vs. AI), our approach addresses the
    - Real-world deployment considerations
    - Adversarial robustness testing
 
-### Technical Documentation
-
-- **[CLAUDE.md](CLAUDE.md)** - Developer guide for Claude Code (AI assistant context)
-- **[requirements.txt](requirements.txt)** - Python dependencies
-
 ---
 
 ## 🚀 Quick Start
@@ -98,7 +93,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Phase 1: Dataset Preparation
+### Dataset Preparation
 
 ```bash
 # Create multi-class dataset (1,500 samples: 500 human, 500 AI, 500 MT)
@@ -107,7 +102,7 @@ python3 prepare_data.py
 # Output: processed_xai_dataset.csv
 ```
 
-### Phase 2: Model Training
+### Model Training
 
 ```bash
 # Train mDeBERTa-v3-base for multi-class classification
@@ -120,7 +115,7 @@ python3 train_multiclass.py
 # - final_model_multiclass/
 ```
 
-### Phase 3: Evaluation & Analysis
+### Evaluation & Analysis
 
 ```bash
 # Run dataset analysis (generates visualizations)
@@ -161,7 +156,7 @@ radar-multilingual-Nlp/
 
 ---
 
-## 🔬 Key Features
+##  Key Features
 
 ### Dataset
 - **1,500 balanced samples** (500 per class)
@@ -187,7 +182,7 @@ radar-multilingual-Nlp/
 
 ---
 
-## 🧪 Advanced Usage
+##  Advanced Usage
 
 ### Testing with Custom Models
 
@@ -251,7 +246,7 @@ python3 ai_generate.py --language French --model llama --device cuda --samples 1
 
 ---
 
-## 📚 Citation
+##  Citation
 
 If you use this work in your research, please cite:
 
@@ -266,7 +261,7 @@ If you use this work in your research, please cite:
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
