@@ -1,0 +1,22 @@
+============================================================
+Multi-Class Authorship Attribution - Overall Performance
+============================================================
+
+Model: microsoft/mdeberta-v3-base
+Training Samples: 1200
+Test Samples: 300
+Number of Classes: 3
+
+Accuracy: 0.8633
+Macro Precision: 0.8668
+Macro Recall: 0.8633
+Macro F1-Score: 0.8644
+
+============================================================
+Per-Class Metrics
+============================================================
+
+             Class  Precision  Recall  F1-Score  Support
+machine_translated   0.927835    0.90  0.913706      100
+             human   0.894737    0.85  0.871795      100
+      ai_generated   0.777778    0.84  0.807692      100
